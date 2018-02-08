@@ -12,6 +12,8 @@ class closure
 	public:
 		closure();
 		int fib();
+		int adder();
+		int decer();
 		~closure();
 };
 #endif // !CLOSURE_H

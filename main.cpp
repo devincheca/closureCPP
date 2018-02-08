@@ -11,6 +11,21 @@ int main()
 			<< seq.fib() 
 			<< endl;
 	}
+	for (int i = 0; i < 10; i++)
+	{
+		if (i % 2 == 0)
+		{
+			cout
+				<< seq.adder()
+				<< endl;
+		}
+		else 
+		{
+			cout 
+				<< seq.decer()
+				<< endl;
+		}
+	}
 	system("pause");
 	return 0;
 }
