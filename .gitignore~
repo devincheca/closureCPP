@@ -34,7 +34,3 @@
 # Folders
 Debug/
 .vs/
-
-# Vim temp files
-*.un~
-*.un
