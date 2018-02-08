@@ -1,0 +1,13 @@
+// Devin Checa
+using namespace std;
+#include <iostream>
+#include "closureAPI.h"
+int main()
+{
+	closure seq;
+	cout 
+		<< seq.fib() 
+		<< endl;
+	system("pause");
+	return 0;
+}
